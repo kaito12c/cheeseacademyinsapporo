@@ -1,0 +1,438 @@
+@charset "utf-8";
+html{
+
+
+}
+/* 常にどの要素と連動しているかを考える */
+/* position：relativeで配置を決める */
+body{
+
+}
+/* 画像編集 */
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.site-title{
+    width:  900px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform:translate3d(-50%,-50%,0);
+    font-size: 50px;
+    color: #FAFAFA;
+    font-weight: bold;
+}
+
+.site-subtitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate3d(-50%,-50%,30%);
+    font-size: 2.0rem;
+    color: #FAFAFA;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ナビ */
+.logo-image{
+    width: 200px;
+    height: 42px;
+    padding-right: 360px;
+    padding-left: 40px;
+
+}
+
+.nav-list{
+    display: flex;
+    -webkit-dispray: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    align-items: center;
+    height: 42px;
+
+}
+
+.nav-item{
+    margin: 10px 10px 0 40px;
+}
+
+/* ABOUT */
+
+.about-title{
+    margin-top: 60px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    font-family: Arial;
+    color: #FFD61A;
+    text-align: center;
+
+}
+.about-first{
+    padding-top: 24px;
+    padding-bottom: 64px;
+}
+.about-massage{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 32px;
+    width: 560;
+    margin: auto;
+    
+}
+.space{
+    margin-bottom: 32px;
+}
+.minispace{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+.about-image{
+    margin-top: 32px;
+    width: 1366px;
+    height: 256px;
+}
+
+/* COURSE */
+
+.course-title{
+    margin-top: 24px;
+    padding-top: 64px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    font-family: Arial;
+    color: #333333;
+    text-align: center;
+}
+
+.course-subtitle{
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.course-text{
+    flex-direction: column;
+}
+.calicurram{
+font-size: 18px;
+padding-bottom: 32px;
+}
+
+.course-massage{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 64px;
+    
+}
+
+.course-image{
+    width: 683px;
+    height: 457px;
+}
+.course-image2{
+    width: 683px;
+    height: 457px;
+    
+}
+.section-course-list{
+
+    display: flex;
+    width: 1200px;
+    margin: auto;  
+    background-color:#eceaea;
+    ;
+    /* margin-right: margin-left: ;; 
+    justfy-contentは均等配置してくれる
+    align-itemsも？
+    */
+
+}
+
+/* NEWS */
+
+.news-title{
+    padding-top: 60px;
+    font-size: 24px;
+}
+
+.section-news-title{
+    margin-top: 24px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    font-family: Arial;
+    color: #FFD61A;
+    text-align: center;
+}
+
+
+.section-news-title-en{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 17pxS;
+    color: #615e5e;
+    text-align: center;
+}
+
+.section-pizza1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: bold;
+
+
+}
+
+.news-list-date1{
+    font-size: 14px;
+    color: gray;
+
+}
+
+.pic-size1{
+    width: 364px;
+    height: 243px;
+
+}
+.section-pizza2{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: bold;
+
+}
+
+.news-list-date2{
+    font-size: 14px;
+    color: gray;
+}
+
+.pic-size2{
+    width: 364px;
+    height: 243px;
+    /*     
+    width: 364px;
+    height: 243px;
+    max-width: 100%;
+    height: auto;
+     */
+
+}
+
+.section-pizza3{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: bold;
+
+}
+
+.pic-size3{
+    width: 364px;
+    height: 243px;
+}
+
+.news-list-date3{
+    font-size: 14px;
+    color: gray;
+}
+
+.section-news-list{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;  
+    /* margin-right: margin-left: ;; 
+    justfy-contentは均等配置してくれる
+    align-itemsも？
+    */
+
+}
+.news-push{
+    margin-top: 16px;
+    margin-bottom: 27px;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #FFD61A;
+    font-size: 16px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+
+
+}
+
+/* ACCESS */
+
+
+.access{
+    padding-top: 65px;
+    margin-bottom: 65px;
+    max-width: auto;
+    height: 760px;
+    background-color: #FAFAFA;
+}
+.access-subtitle{
+    padding-top: 10px;
+    font-weight: bold;
+    justify-content: right;
+}
+
+.access-outer{
+    display: flex;
+    justify-content: center;
+}
+
+.access-text{
+    text-align: center;
+}
+.pic-size4{
+    max-width: auto;
+    height: auto;
+}
+/* CONTACT */
+
+.contact{
+    padding: 80px 0 64px;
+}
+
+.contact-title
+{
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.contact-massage{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 64px;
+
+}
+
+
+.form-wrapper{
+    width: 600px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+}
+.form-title{
+    width: 172px;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-item{
+    padding-top: 8px;
+    width: 400px;
+    margin: 0 0 32px;
+}
+
+.form-parts{
+    box-sizing: border-box;
+    width:100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+
+}
+
+.form-label{
+    width: 230px;
+    margin: 0 16px 0 0;
+    font-size: 1.4rem;
+
+}
+input[type*="radio"]{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearrance:none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+    border: solid 1px #a0a0a0;
+    border-radius: 50%;
+    vertical-align: -2pxS;
+
+}
+
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+    
+}
+
+.btn-submit{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearrance:none;
+    border:none;
+}
+
+/* FOOTER */
+.footer{
+  background-color: #707070;
+  padding: 26px 0;
+  text-align: center;
+
+}
+.footer .wrapper{
+    position: relative;
+
+}
+.btn-pagetop{
+    position: absolute;
+    top: -78px;
+    right: 10px;
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #707070;
+}
+.copy-rights{
+    color: #FAFAFA;
+
+}
+
+.icon-up{
+    padding: 4px 0;
+    color: #FAFAFA;
+    font-size: 2.4rem;
+}
+
+@media screen and (max-width:640px){
+    .nav-list{
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-item{
+        padding:5px 0;
+    }
+    .nav-itemed>a{
+        text-align: center;
+
+    }
+}
